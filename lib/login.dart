@@ -32,7 +32,7 @@ class LoginPage extends StatelessWidget {
                 children: [
                   // Gambar bagian kiri (untuk mode desktop atau tablet)
                   Image.asset(
-                    'Komodo2.png',
+                    'lib/assets/Komodo2.png',
                     fit: BoxFit.cover,
                     height: 200,
                     width: double.infinity,
@@ -45,7 +45,7 @@ class LoginPage extends StatelessWidget {
                         // Logo
                         CircleAvatar(
                           radius: 40,
-                          backgroundImage: AssetImage('Logo.png'),
+                          backgroundImage: AssetImage('lib/assets/Logo.png'),
                         ),
                         const SizedBox(height: 16),
                         Text(
@@ -110,7 +110,7 @@ class LoginPage extends StatelessWidget {
                             // Logika login dengan Google
                           },
                           icon: Image.asset(
-                            'Google.png',
+                            'lib/assets/Google.png',
                             height: 24,
                           ),
                           label: Text('Login with Google'),
